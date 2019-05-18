@@ -3,9 +3,9 @@
 Develop consortium Hyperledger fabric and deploy on Microsft Azure
 
 
-#Prerequisites
+###Prerequisites
 
-Build a fabric network from scratch
+###Build a fabric network from scratch
 
 • Ubuntu 16.04 VM (you can also use Mac)
 • Pre-requisites:
