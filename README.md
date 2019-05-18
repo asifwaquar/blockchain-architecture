@@ -3,9 +3,9 @@
 Develop consortium Hyperledger fabric and deploy on Microsft Azure
 
 
-###Prerequisites
+### Prerequisites
 
-###Build a fabric network from scratch
+### Build a fabric network from scratch
 
 • Ubuntu 16.04 VM (you can also use Mac)
 • Pre-requisites:
@@ -15,14 +15,17 @@ Develop consortium Hyperledger fabric and deploy on Microsft Azure
 your node installation.
 – Git client - needed for clone commands
 – Go - version 1.9.x
-Step-1- Choose Ubuntu Server
- 
 
-Step-2 Create VM
- 
- 
+### Step-1- Choose Ubuntu Server
+ ![Choose Server](https://github.com/asifwaquar/images/blob/master/images/azure.png)
 
-Step-3
+
+### Step-2 Create VM
+  ![Crete VM](https://github.com/asifwaquar/images/blob/master/images/config1.png)
+  ![Crete VM](https://github.com/asifwaquar/images/blob/master/images/config2.png)
+
+### Step-3
+
 Downlod Hyperledger Composer and provide permission
 curl -O https://hyperledger.github.io/composer/v0.19/prereqs-ubuntu.sh
 chmod u+x prereqs-ubuntu.sh
