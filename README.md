@@ -107,7 +107,8 @@ Creating orderer.example.com
 Creating peer1.org2.example.com
 Creating cli
 
-![Final image] (https://github.com/asifwaquar/images/blob/master/images/final.JPG)
+![Choose imge](https://github.com/asifwaquar/images/blob/master/images/final.JPG)
+
 
 
 
