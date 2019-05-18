@@ -96,17 +96,8 @@ git checkout 1.4.1
  
 ### Results
 
-Starting with channel 'mychannel' and CLI timeout of '10'
-Continue? [Y/n]
-proceeding ...
-Creating network "net_byfn" with the default driver
-Creating peer0.org1.example.com
-Creating peer1.org1.example.com
-Creating peer0.org2.example.com
-Creating orderer.example.com
-Creating peer1.org2.example.com
-Creating cli
 
+![Choose imge](https://github.com/asifwaquar/images/blob/master/images/final1.JPG)
 ![Choose imge](https://github.com/asifwaquar/images/blob/master/images/final.JPG)
 
 
