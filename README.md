@@ -1,8 +1,12 @@
 # blockchain-hyperledger fabric installation on Azure
 
 Develop consortium Hyperledger fabric and deploy on Microsft Azure
+
+
 #Prerequisites
+
 Build a fabric network from scratch
+
 • Ubuntu 16.04 VM (you can also use Mac)
 • Pre-requisites:
 – Docker - v1.13 or higher
