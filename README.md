@@ -71,9 +71,9 @@ source ~/.profile
 ### Step-8
 #### Clone code to your home directory to setup network and install chain code
 
-git clone -b master https://github.com/asifwaquar/blockchain-architecture.git
-cd Start/fabric-code
-git checkout 1.4.1
+* git clone -b master https://github.com/hyperledger/fabric-samples.git
+* cd fabric-samples
+* git checkout 1.4.1
 
 
 ### Download platform binaries 
