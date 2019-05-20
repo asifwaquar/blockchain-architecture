@@ -30,6 +30,9 @@ your node installation.
 
 #### Downlod Hyperledger Composer and provide permission
 
+Connect VM using local Account through ssh
+
+
 curl -O https://hyperledger.github.io/composer/v0.19/prereqs-ubuntu.sh
 chmod u+x prereqs-ubuntu.sh
 
