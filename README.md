@@ -3,6 +3,10 @@
 Develop consortium Hyperledger fabric and deploy on Microsft Azure
 
 
+# Installation steps:
+
+[![Watch the video]](https://youtu.be/Gx_qIU0SRbw)
+
 ### Prerequisites
 
 ### Build a fabric network from scratch
