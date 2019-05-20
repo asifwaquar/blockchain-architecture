@@ -49,7 +49,7 @@
           steps {
             script {
               // Get changes from gerrit
-              fabBuildLibrary.cloneRefSpec('fabric-samples')
+              fabBuildLibrary.cloneRefSpec('fabric-code-start')
               // Load properties from ci.properties file
               props = fabBuildLibrary.loadProperties()
             }
@@ -73,7 +73,7 @@
                   fabBuildLibrary.cloneScm('fabric-ca', '$GERRIT_BRANCH')
                   // Build fabric docker images and binaries
                   fabBuildLibrary.fabBuildImages('fabric-ca', 'docker dist')
-                  // Copy binaries to fabric-samples dir
+                  // Copy binaries to fabric-code-start dir
                   sh 'cp -r $ROOTDIR/gopath/src/github.com/hyperledger/fabric/release/$OS_NAME-$MARCH/bin $ROOTDIR/$BASE_DIR/'
                   // Pull Thirdparty Docker Images from hyperledger DockerHub
                   fabBuildLibrary.pullThirdPartyImages(props["FAB_BASEIMAGE_VERSION"], props["FAB_THIRDPARTY_IMAGES_LIST"])
