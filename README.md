@@ -86,7 +86,7 @@ source ~/.profile
 
 ### Step-9 Install network 
 
-	cd fabric-code/first-network
+	cd fabric-samples/first-network
 
 ### Step-10 Generate Certificates
 
