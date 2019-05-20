@@ -33,40 +33,40 @@ your node installation.
 Connect VM using local Account through ssh
 
 
-curl -O https://hyperledger.github.io/composer/v0.19/prereqs-ubuntu.sh
-chmod u+x prereqs-ubuntu.sh
+* curl -O https://hyperledger.github.io/composer/v0.19/prereqs-ubuntu.sh
+* chmod u+x prereqs-ubuntu.sh
 
 #### Execute below script after that
 ./prereqs-ubuntu.sh
 
 ### Step 3 — Install Go Language
 
-sudo apt-get update
-sudo apt-get -y upgrade
+* sudo apt-get update
+* sudo apt-get -y upgrade
 
 ### Step 4- Now download GO binaries
 
-cd /tmp
-wget https://dl.google.com/go/go1.11.linux-amd64.tar.gz
+* cd /tmp
+* wget https://dl.google.com/go/go1.11.linux-amd64.tar.gz
 
 ### Step-5 Install GO Code and move to desired location
 
-sudo tar -xvf go1.11.linux-amd64.tar.gz
-sudo mv go /usr/local
+* sudo tar -xvf go1.11.linux-amd64.tar.gz
+* sudo mv go /usr/local
 
 ### Step-5 Setup GO Root
 
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+* export GOROOT=/usr/local/go
+* export GOPATH=$HOME/go
+* export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 ### Step-6 Update current shell session 
 
 source ~/.profile
 
 ### Step-7 Verify Installation
-go version
-go env
+* go version
+* go env
 
 ### Step-8
 #### Clone code to your home directory to setup network and install chain code
