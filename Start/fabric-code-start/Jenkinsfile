@@ -49,7 +49,7 @@
           steps {
             script {
               // Get changes from gerrit
-              fabBuildLibrary.cloneRefSpec('fabric-samples')
+              fabBuildLibrary.cloneRefSpec('fabric-code-start')
               // Load properties from ci.properties file
               props = fabBuildLibrary.loadProperties()
             }
