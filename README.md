@@ -40,7 +40,7 @@ Connect VM using local Account through ssh
 * curl -O https://hyperledger.github.io/composer/v0.19/prereqs-ubuntu.sh
 * chmod u+x prereqs-ubuntu.sh
 
-#### Execute below script after that
+#### Execute below script after that for hyperledger composer
 ./prereqs-ubuntu.sh
 
 ### Step 3 — Install Go Language
