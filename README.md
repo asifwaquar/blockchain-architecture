@@ -77,7 +77,7 @@ source ~/.profile
 
 * git clone -b master https://github.com/hyperledger/fabric-samples.git
 * cd fabric-samples
-* git checkout 1.4.1
+* git checkout v1.4.1
 
 
 ### Download platform binaries 
